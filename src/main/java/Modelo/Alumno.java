@@ -62,5 +62,5 @@ public class Alumno {
         return "LEGAJO: " + this.legajo + " ALUMNO: " + this.apellido  + " NOTA: " + this.nota ;
     }
     
-    
+    //asdf
 }
