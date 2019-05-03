@@ -6,6 +6,7 @@
 package Sistema;
 
 import Modelo.Alumno;
+import java.lang.reflect.Array;
 import java.util.Scanner;
 
 /**
@@ -35,7 +36,6 @@ public class Main {
             System.out.println("");
             array[i] = new Alumno(leg,nom,ape,not) ;
         }
-        
         
         for (int i = 0 ; i<val ; i++){
            // System.out.println("Alu: "+array[i].getLegajo() + " "+ array[i].getNota() + " " + array[i].getApellido());
